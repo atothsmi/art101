@@ -14,8 +14,8 @@ body>div {
   border-style: solid;
   border-radius: 20px;
   border-color: #aaaaaa;
-  padding: 5px;
-  margin: 5px;
+  padding: 2.5%;
+  margin: 2.5%;
   float: center;
   background-color: white;
 }
@@ -43,6 +43,8 @@ select {
 
 .row{
   display:flex;
+  border-style: none;
+  background-color: inherit;
 }
 
 .row:after {
@@ -52,7 +54,7 @@ select {
 }
 
 #content {
-  size: 40px;
+  font-size: 2.5em;
   color: #000129;
 }
 
@@ -80,6 +82,7 @@ select {
   border-radius: 20px;
   border-color: #0e91ab;
   border-width: 20px;
+  transition: background-color 2s, border-color 2s;
 }
 
 #alias-bio img {
