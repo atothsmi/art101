@@ -1,3 +1,7 @@
+html {
+  background-color: #000129;
+}
+
 h1 {
   text-align: center;
 }
@@ -9,9 +13,11 @@ img{
 body>div {
   border-style: solid;
   border-radius: 20px;
+  border-color: #aaaaaa;
   padding: 5px;
   margin: 5px;
   float: center;
+  background-color: white;
 }
 
 div>form {
@@ -46,7 +52,8 @@ select {
 }
 
 #content {
-
+  size: 40px;
+  color: #000129;
 }
 
 #evans-div{
