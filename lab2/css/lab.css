@@ -5,6 +5,31 @@ h1 {
 img{
   max-width: 50%;
 }
+
+body>div {
+  border-style: solid;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+  float: center;
+}
+
+div>form {
+  padding: 10px;
+  margin: 10px;
+  display: block;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+}
+
+select {
+  margin: 10px;
+}
+
 /*Columns from: https://www.w3schools.com/howto/howto_css_two_columns.asp*/
 .column {
   width: 50%;
@@ -13,20 +38,47 @@ img{
 .row{
   display:flex;
 }
+
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-#content{
+
+
+#content {
 
 }
 
-#evans-div{
+#evans-div {
 
 }
 
-#alias-bio{
+#alias-bio {
+  color: black;
+  background-color: #92c2d4;
+  font-family: Arial, sans-serif;
+  line-height: 125%;
+  padding: 20px;
+  margin: 5px;
+  border-style: groove;
+  border-radius: 20px;
+  border-color: #0e91ab;
+  border-width: 20px;
+}
 
+#alias-bio img {
+    float: left;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+#alias-bio ol {
+  display: inline-block;
+}
+
+#alias-bio:hover {
+  background: #ba92d4;
+  border-color: #a466cc;
 }
