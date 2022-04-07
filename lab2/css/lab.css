@@ -63,12 +63,28 @@ select {
   color: black;
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 1.5em;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 5px;
   transition: background-color 2s, color 2s;
 }
 
 #evans-div:hover{
   background-color: blue;
   color: white;
+
+}
+
+#evans-div img{
+  border-radius: 50px;
+  margin-left: 33%;
+  height: 50%;
+  transition: transform 5s;
+}
+
+#evans-div img:hover{
+  transform: rotate(360deg);
 }
 
 #alias-bio {
