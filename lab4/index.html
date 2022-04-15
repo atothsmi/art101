@@ -1,11 +1,106 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4 - Pseudocoding & Problem-Solving</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
+
+	<div class="standard-div">
+		<h1>Lab 4- Pseudocoding & Problem-Solving</h1>
+	</div>
+
+	<div class="standard-div">
+		<h2>Challenge</h2>
+
+		<p>
+			The challenge for this lab was to produce pseudocode for tasks and to think about how high level tasks can break down into smaller tasks.
+			My partner and I worked together to break the tasks we chose into appropriately sized chunks.
+		</p>
+
+	</div>
+
+	<div class="standard-div">
+		<h2>Problems</h2>
+
+		<p>
+			I have done a lot of pseudocoding before, so I struggled with thinking about higher level tasks first, before breaking down the task into
+			smaller chunks. In addition, I wanted to create some multi-use classes for my site that I could apply to a bunch of my future labs, so I had
+			some difficulty which CSS features I wanted to keep consistent throughout. In my head, idea of general purpose classes is to define as little
+			as possible, but as much as I need. It was a little tricky to find that balance.
+		</p>
+
+	</div>
+
+	<div class="standard-div">
+		<h2>Results</h2>
+			<p>First, we created pseudo code describing how to download a game from steam.</p>
+			<pre><code>
+				Download Steam
+					Go to store.steampowered.com.
+					Make a Steam account
+					Click “Install Steam”
+					Accept all in the Steam start-up wizard
+				Open Steam
+				Find the game you want to purchase
+				Purchase game
+					Add game to cart
+					Select payment option
+					Agree to Terms of Service
+					Hit Purchase
+				Download Game from Steam App
+			</pre></code>
+
+			<img src="img/lab4-1-irl-pseudocode.png" alt="lab4-1-irl-pseudocode">
+
+			<p class="caption">The pseudocode in my html. It uses 'pre' and 'code' html tags to prevent the html from collapsing.</p>
+
+
+		<p>Then we outlined the steps to create the game Hangman. We planned our version to allow players to play against the computer. </p>
+		<pre><code>
+			/*
+			 * Practice pseudocoding by outlining the steps to code hangman
+			 * Authors: Alia Toth-Smith and Evan Pompa.
+			 * Date: 4/14/2022
+			 */
+
+			 // Hangman
+			   // 1. Pick a word
+			     // a. Choose a random word from a comprehensive English dictionary
+			     // b. Verify word does not contain special characters
+			   // 2. Draw Gallows
+			   // 3. Inform player of how many letters are in the word
+			    // a. Draw underscores in a line equivalent to the number of characters in the word
+			   // 4. Accept player guess
+			     // a. Verify if player guess is a valid single character
+			     // b. Verify player has not previously guessed the same character
+			   // 5. Show results to player
+			     // a. If player guess is in the word
+			       // i. Remove underscore(s) in place of player guess
+			       // ii. Replace removed underscores with guessed letter
+			     // b If player guess isn’t in the word
+			       // i. tell player their guess was incorrect
+			       // ii. draw next body part
+			   // 6. Check for win or lose condition
+			     // a. If hangman is filled, player loses
+			     // b. If word slots are all filled in, player wins
+			     // c. else repeat steps 4-6
+		</pre></code>
+
+		<img src="img/lab4-3-js-comments.png" alt="lab4-3-js-comments.png">
+
+		<p class="caption">The pseudocode for our theoretical program in my lab4/js/lab.js file.</p>
+
+		<p>Finally, I designed the look of this page with css. I tested my css locally by using the inspect feature of chrome to test possible changes.</p>
+
+		<img src="img/lab4-3-js-comments.png" alt="lab4-3-js-comments.png">
+
+		<p class="caption">The pseudocode for our theoretical program in my lab4/js/lab.js file.</p>
+
+	</div>
+
+
 
 </body>
 </html>
