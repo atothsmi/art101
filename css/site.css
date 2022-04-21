@@ -8,7 +8,10 @@ div.alias-fancy-bio>h1 {
 }
 
 p, h1, h2, h3{
-  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .alias-fancy-bio {
