@@ -1,3 +1,14 @@
 html {
-  background-color: #f8ff7a;
+  background-color: #ff8c00;
+}
+
+#lab7-output {
+  font-family: monospace;
+  font-size: 20pt;
+  color: blue;
+  text-align: center;
+
+  border-style: dashed;
+  border-width: thick;
+  border-color: blue;
 }
