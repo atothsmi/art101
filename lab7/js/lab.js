@@ -20,6 +20,7 @@ function nameSort(userName){
 }
 
 
+
 //Prompt user for their name
 var userName = window.prompt("Enter a username!");
 
