@@ -20,12 +20,14 @@ function posFactorial(x) {
 
 //Factorial all nums in myNums using named function
 var myNumsFactorial = myNums.map(posFactorial);
+console.log(myNumsFactorial);
 
 //Divide all nums in myNums by 4 using anon function
 var myNumsDividedByFour = myNums.map(
                                   function(x){
                                     return (x / 4);
                                 });
+console.log(myNumsDividedByFour);
 
 var myNumsFactorialSpaced = "";
 
