@@ -29,6 +29,7 @@ var myNumsDividedByFour = myNums.map(
                                 });
 console.log(myNumsDividedByFour);
 
+//Space out factorials
 var myNumsFactorialSpaced = "";
 
 for (var i = 0; i < myNumsFactorial.length; i++) {
@@ -40,6 +41,7 @@ for (var i = 0; i < myNumsFactorial.length; i++) {
       }
     }
 
+//Format results for page
 function main(){
   var outputEl = document.getElementById("output");
   outputEl.innerHTML = '<p>Here is my original array:<br>' + myNums;

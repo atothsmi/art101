@@ -2,3 +2,7 @@
   display: inherit;
   padding: 10px;
 }
+
+html {
+  background-color: #400101;
+}

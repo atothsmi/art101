@@ -121,6 +121,34 @@ button {
   margin-bottom: 5%
 }
 
+.red-standard-div {
+  color: black;
+  background-color: #e36868;
+  font-family: Arial, sans-serif;
+  border-style: groove;
+  border-radius: 20px;
+  border-color: #960000;
+  border-width: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%
+}
+
+.purple-standard-div {
+  color: black;
+  background-color: #e4a1ff
+  font-family: Arial, sans-serif;
+  border-style: groove;
+  border-radius: 20px;
+  border-color: #680091;
+  border-width: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%
+}
+
 img {
   display: block;
   margin-left: auto;
