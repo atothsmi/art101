@@ -1,0 +1,33 @@
+button {
+  margin: 20px;
+}
+
+.special-challenge {
+  font-family: monospace;
+  margin: 10px;
+  background-color: #e36868;
+  border-style: dashed;
+  border-radius: 20px;
+  border-color: #960000;
+  border-width: 10px;
+}
+
+.special-problems {
+  font-family: fantasy;
+  margin: 10px;
+  background-color:#92c2d4;
+  border-style: double;
+  border-radius: 20px;
+  border-color: #0e91ab;
+  border-width: 10px;
+}
+
+.special-results {
+  font-family: cursive;
+  margin: 10px;
+  background-color: #e4a1ee;
+  border-style: dotted;
+  border-radius: 20px;
+  border-color: #680091;
+  border-width: 10px;
+}
