@@ -1,0 +1,13 @@
+html {
+  background-color: #f8ff7a;
+}
+
+.output {
+  font-family: cursive;
+  margin: 10px;
+  background-color: #e4a1ee;
+  border-style: dotted;
+  border-radius: 20px;
+  border-color: #680091;
+  border-width: 10px;
+}
