@@ -5,3 +5,20 @@ html {
 .sourcelink {
   float: right;
 }
+
+.outline {
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: #ff8c00;
+  margin: 20px;
+}
+
+/*Thanks to Wes Modes for the column-width styling*/
+#output {
+  column-width: 200px;
+}
+
+#output>p{
+  margin: 0px;
+  padding: 0px;
+}
