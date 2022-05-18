@@ -4,8 +4,10 @@
  * Date: 5/17/2022
  */
 
+ //Set the max number
 var maxNum = 200;
 
+//Create which multiples your looking for and associated message
 var multiples = [
   {num: 3, message: 'Fizz'},
   {num: 5, message: 'Buzz'},
@@ -41,7 +43,7 @@ var multiples = [
    };
 
 
-   $('#output').append('<p>' + i + ': ' + exclaimation);
+   $('#output').append('<p class="less-space">' + i + ': ' + exclaimation);
    console.log(i + ': ' + exclaimation);
 
 
