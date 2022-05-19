@@ -14,6 +14,7 @@ var multiples = [
   {num: 7, message: 'Boom'}
 ];
 
+function fizzbuzz(max, factors){
 //Loops through every number from 1 to maxNum
  for (var i = 1; i <= maxNum; i++){
    //console.log(i);
@@ -48,3 +49,7 @@ var multiples = [
 
 
 };
+
+}
+
+fizzbuzz(maxNum, multiples);
