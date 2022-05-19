@@ -1,3 +1,3 @@
 /* Tests for features on our final project website */
-var a = window.innerWidth;
-console.log(a)
+
+//Place animals and background with a for loop and an array

@@ -26,10 +26,6 @@ img {
   padding: inherit;
 }
 
-.starting-page {
-  width: 100vw;
-}
-
 .container {
   display: inline-flex;
   overflow: auto;
@@ -42,14 +38,34 @@ img {
   overflow-y: hidden;
 }
 
-.green {
-  height: inherit;
-  width: auto;
-  background-color: green;
+.full-width-div {
+  width: 100vw;
 }
 
-.orange {
-  height: inherit;
-  width: auto;
-  background-color: orange;
+.purple-pastel-gradient {
+  background-image: linear-gradient(to right, #FFCCF9, #B28DFF);
+}
+
+.blue-pastel-gradient {
+  background-image: linear-gradient(to right, #B28DFF, #85E3FF);
+}
+
+.green-pastel-gradient {
+  background-image: linear-gradient(to right, #85E3FF, #AFF8D8);
+}
+
+.yellow-pastel-gradient {
+  background-image: linear-gradient(to right, #AFF8D8, #FFFFD1);
+}
+
+.orange-pastel-gradient {
+  background-image: linear-gradient(to right, #FFFFD1, #FFCBC1);
+}
+
+.red-pastel-gradient {
+  background-image: linear-gradient(to right, #FFCBC1, #FFABAB);
+}
+
+.pink-pastel-gradient {
+  background-image: linear-gradient(to right,  #FFABAB,  #FFCCF9);
 }
