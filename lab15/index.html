@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 15 - AJAX</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+	integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+	crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/lab.js" defer></script>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
-<body class="standard-div">
+<body class="purple-standard-div">
 
 		<div>
-			<h1>Lab </h1>
+			<h1>Lab 15 - AJAX</h1>
 		</div>
 
 		<div>
 			<h2>Challenge</h2>
 
 			<p>
-
+				Evan and I worked together to experiment with getting information form APIs and using AJAX through jQuery.
 			</p>
 
 		</div>
@@ -25,37 +28,44 @@
 			<h2>Problems</h2>
 
 			<p>
-
+				We can't spell, so had some spelling based syntax issues. Otherwise, we understood the syntax and
+				how to retrieve items from the JSON or basic strings that our API's returned. Also the NASA api, we had
+				to apply for a key to use their APIs, but that went very smoothly and we were able to quickly find the
+				endpoint we needed.
 			</p>
 
 		</div>
 
-		<div>
+		<div id='results'>
 			<h2>Results</h2>
 
 			<p>
-
+				Click activate to retrieve a sentence from the ItsThisForThat API.
 			</p>
 
-			<div class="standard-div">
-				<h3>Script Output</h3>
+			<div>
 
-				<div id="">
-				</div>
+				<button id='activate'>Activate</button>
+
+				<div id='output'></div>
 
 			</div>
 
 			<p>
-
+				Click activate to retrieve a today's Astronomy Picture of the Day from NASA's APOD API.
 			</p>
 
-			<img src="img/lab#.png" alt="lab#">
+			<div>
 
-			<p>
+				<button id='spaceToday'>Activate</button>
 
-			</p>
+				<div id='spaceOutput'></div>
 
-			<img src="img/lab#.png" alt="lab#">
+			</div>
+
+			<div class="">
+				<a href="js/lab.js">JavaScript Source</a>
+			</div>
 
 		</div>
 
