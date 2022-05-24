@@ -42,7 +42,7 @@ function getSpaceAjax(){
   	console.log('Data Retrieved')
 
 		//Format and Place Data retireved on page
-		$('#spaceOutput').append('<h3>' + data.title + '<br>');
+		$('#spaceOutput').html('<h3>' + data.title + '<br>');
 		$('#spaceOutput').append('<img src=' + data.url + '><br>');
 		$('#spaceOutput').append(data.explanation);
 		$('#spaceOutput').append('<p>Copyright: ' + data.copyright + '<br>Date:' + data.date + '<br>');
