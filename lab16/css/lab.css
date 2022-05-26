@@ -1,0 +1,19 @@
+#navButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#output>h2 {
+  text-align: center;
+}
+
+#date{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#date>p{
+  padding-top: 0px;
+}
